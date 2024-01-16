@@ -464,7 +464,7 @@ nav li a {
     font-family: "Mulish", sans-serif;
     font-size: 12px;
     font-weight: 400;
-    width: 550px;
+    max-width: 500px;
   }
   .section-title {
     font-size: 20px;
@@ -512,6 +512,7 @@ nav li a {
   .desti-img-row1, .desti-img-row2,
   .desti-img-row3 {
     flex-direction: column;
+    max-width: 500px;
   }
   .whychoose-container, .whychoose-textcontainer, .whychoosediv-container,
   .whychoosefst-row {
