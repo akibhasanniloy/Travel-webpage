@@ -47,8 +47,8 @@ nav li a {
   text-decoration: none;
   color: #424242;
 }
-#nav-menu-bar {
-  /* display: none; */
+#nav-menu-bar{
+  display: none;
 }
 /* Banner */
 .banner-container {
@@ -494,34 +494,37 @@ nav li a {
   .banner-box-input input[type="search"] {
     margin-bottom: 4px;
   }
-  .popular-Tour-container{
+  .popular-Tour-container {
     flex-direction: column;
     padding: 0;
   }
-  .popu-tour-img{
+  .popu-tour-img {
     margin-left: 0px;
     margin-top: 15px;
   }
-  .destination-container{
+  .destination-container {
     flex-direction: column;
     text-align: center;
   }
-  .desti-img-container{
+  .desti-img-container {
     flex-direction: column;
   }
-  .desti-img-row1, .desti-img-row2,
+  .desti-img-row1,
+  .desti-img-row2,
   .desti-img-row3 {
     flex-direction: column;
     max-width: 500px;
   }
-  .whychoose-container, .whychoose-textcontainer, .whychoosediv-container,
+  .whychoose-container,
+  .whychoose-textcontainer,
+  .whychoosediv-container,
   .whychoosefst-row {
     flex-direction: column;
   }
-  .newsletter-container{
+  .newsletter-container {
     flex-direction: column;
   }
-  .footer-container{
+  .footer-container {
     flex-direction: column;
   }
 }
