@@ -47,9 +47,8 @@ nav li a {
   text-decoration: none;
   color: #424242;
 }
-/* Menu bar please set up this later */
 #nav-menu-bar {
-  display: none;
+  /* display: none; */
 }
 /* Banner */
 .banner-container {
@@ -93,7 +92,7 @@ nav li a {
   width: 170px;
   font-weight: 400;
   color: rgba(19, 19, 24, 0.5);
-  font-family: "Mulish",sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -461,31 +460,67 @@ nav li a {
 @media screen and (max-width: 600px) {
   body {
     flex-direction: column;
-    padding: 12px 8px;
+    padding: 10px 4px;
+    font-family: "Mulish", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    width: 550px;
   }
   .section-title {
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 800;
   }
   .nav-listitem {
     display: none;
   }
-  /* #nav-menu-bar{
-        display: flex;
-    } */
+  #nav-menu-bar {
+    display: show;
+  }
   .banner-container {
-    margin-top: 16px;
-    padding-top: 30px;
+    margin-top: 10px;
+    padding: 2px;
     width: auto;
   }
   .banner-heading {
     color: #fff;
-    font-family: "Mulish", sans-serif;
     font-size: 22px;
     font-weight: 800;
   }
   .banner-box {
     flex-direction: column;
     margin-top: 4px;
+  }
+  .banner-box-input input[type="text"],
+  .banner-box-input input[type="search"] {
+    margin-bottom: 4px;
+  }
+  .popular-Tour-container{
+    flex-direction: column;
+    padding: 0;
+  }
+  .popu-tour-img{
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .destination-container{
+    flex-direction: column;
+    text-align: center;
+  }
+  .desti-img-container{
+    flex-direction: column;
+  }
+  .desti-img-row1, .desti-img-row2,
+  .desti-img-row3 {
+    flex-direction: column;
+  }
+  .whychoose-container, .whychoose-textcontainer, .whychoosediv-container,
+  .whychoosefst-row {
+    flex-direction: column;
+  }
+  .newsletter-container{
+    flex-direction: column;
+  }
+  .footer-container{
+    flex-direction: column;
   }
 }
