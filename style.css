@@ -4,16 +4,19 @@
   margin: 0;
   padding: 0;
   font-family: "Mulish", sans-serif;
+  background-position: center;
 }
 .text-light-gray {
   color: #727272;
 }
 body {
   font-family: "Mulish", sans-serif;
+  /* padding: 40px auto; */
+  background-position: center;
 }
-header,
-main {
-  padding: 50px 140px;
+.header, .main {
+  /* padding: 40px 130px; */
+  min-width: 900px;
 }
 /* Header Nav */
 nav {
@@ -48,7 +51,7 @@ nav li a {
   color: #424242;
 }
 #nav-menu-bar {
-  display: none;
+  display: hidden;
 }
 /* Banner */
 .banner-container {
@@ -279,7 +282,7 @@ nav li a {
 }
 .whychoosediv-container {
   margin-top: 50px;
-  /* width: 1150px; */
+  max-width: 1200px;
 }
 .whychoosefst-row {
   display: flex;
@@ -465,6 +468,7 @@ nav li a {
     font-size: 12px;
     font-weight: 400;
     max-width: 500px;
+    background-position: center;
   }
   .section-title {
     font-size: 20px;
@@ -480,6 +484,7 @@ nav li a {
     margin-top: 10px;
     padding: 2px;
     width: auto;
+    background-position: center;
   }
   .banner-heading {
     color: #fff;
